@@ -1,0 +1,12 @@
+{
+  "name": "web_app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "sw.js",
+  "scripts": {
+    "server": "json-server --watch db.json --port 8000"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

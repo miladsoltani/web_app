@@ -1,0 +1,8 @@
+{
+  "users": [
+    { "id": 1, "name": "milad soltani" },
+    { "id": 2, "name": "ali rezaii" },
+    { "id": 3, "name": "hamed akbari" },
+    { "id": 4, "name": "saeed roshani" }
+  ]
+}
