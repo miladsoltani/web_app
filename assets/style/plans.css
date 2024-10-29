@@ -1,5 +1,5 @@
 main {
-    padding-top: 2rem;
+    padding-top: 3rem;
 }
 
 .plan {
@@ -10,6 +10,7 @@ main {
     text-align: right;
     border-radius: 3px;
     position: relative;
+    overflow: hidden;
 }
 
 .plan a {
@@ -58,9 +59,12 @@ main {
     position: absolute;
     top: 0;
     right: 0;
-    margin: 1.2rem;
+    /* margin: 1.2rem; */
     font-size: .9rem;
     background-color: #1e88e5;
     color: #ffffff;
     padding: .1rem .5rem;
+    transform: rotate(45deg) translateX(5rem) translateY(-3.5rem);
+    width: 300px;
+    text-align: center;
 }

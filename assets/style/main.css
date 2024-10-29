@@ -18,24 +18,22 @@ body {
   width: 100vw;
   position: fixed;
   z-index: 1;
-}
-
-.main-header > div {
-  display: inline-block;
-  vertical-align: middle;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap-reverse;
+  align-content: center;
 }
 
 .main-nav {
-  display: inline-block;
-  width: calc(100% - 70px);
-  text-align: right;
-  vertical-align: middle;
+  display: flex;
 }
 
 .main-nav__items {
   margin: 0;
   padding: 0;
   list-style: none;
+  display: flex;
 }
 
 .main-nav__item {
@@ -57,6 +55,11 @@ body {
 .main-nav__item a:hover,
 .main-nav__item a:active {
   color: #ffffff;
+  transition: all .5s;
+}
+
+.main-nav__item--account {
+  animation: account .3s 0s infinite;
 }
 
 .main-nav__item--account a {
@@ -172,14 +175,14 @@ body {
 }
 
 .main-footer__links {
+  display: flex;
+  justify-content: center;
   list-style: none;
   margin: 0;
   padding: 0;
-  text-align: center;
 }
 
 .main-footer__link {
-  display: inline-block;
   margin: 0 16px;
 }
 
@@ -208,5 +211,14 @@ body {
   .features__list--element {
     display: inline-block;
     width: 30%;
+  }
+}
+
+@keyframes account {
+  from {
+    transform: rotate(0);
+  }
+  to{
+    transform: rotate(10deg);
   }
 }
