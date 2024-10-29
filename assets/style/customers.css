@@ -1,3 +1,7 @@
+:root {
+    --main-clr : #1565c0
+}
+
 main {
     padding-top: 32px;
 }
@@ -21,7 +25,7 @@ main {
 
 .testimonial__name {
     margin: .2rem;
-    color: #1565c0;
+    color: var(--main-clr);
     font-size: 2rem;
 }
 

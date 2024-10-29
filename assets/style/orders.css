@@ -1,3 +1,7 @@
+:root {
+    --main-clr : #1565c0
+}
+
 main {
     margin-top: 2rem;
     direction: rtl;
@@ -6,7 +10,7 @@ main {
 .form-title {
     text-align: center;
     font-size: 1.8rem;
-    color: #1565c0;
+    color: var(--main-clr);
     margin-top: 3rem;
 }
 
@@ -37,7 +41,7 @@ main {
 
 .order-form input[type='checkbox']:checked {
     background-color: #90caf9;
-    border: 1px solid #1565c0;
+    border: 1px solid var(--main-clr);
     outline: none;
 }
 
@@ -48,7 +52,7 @@ main {
     border-radius: 3px;
     border: none;
     color: #ffffff;
-    background-color: #1565c0;
+    background-color: var(--main-clr);
     font: inherit;
 }
 
@@ -63,7 +67,7 @@ main {
 }
 
 .order-form input:focus {
-    border: 1px solid #1565c0;
+    border: 1px solid var(--main-clr);
     background-color: #e3f2fd;
 }
 

@@ -1,3 +1,7 @@
+:root {
+  --main-clr : #1565c0
+}
+
 * {
   box-sizing: border-box;
 }
@@ -13,7 +17,7 @@ body {
 }
 
 .main-header {
-  background-color: #1565c0;
+  background-color: var(--main-clr);
   padding: 8px 16px;
   width: 100vw;
   position: fixed;
@@ -64,14 +68,14 @@ body {
 
 .main-nav__item--account a {
   background-color: #e3f2fd;
-  color: #1565c0;
+  color: var(--main-clr);
   padding: 8px 16px;
   border-radius: 8px;
 }
 
 .main-nav__item--account a:hover,
 .main-nav__item--account a:active {
-  color: #1565c0;
+  color: var(--main-clr);
 }
 
 #overview {
@@ -84,7 +88,7 @@ body {
 }
 
 .section-title {
-  color: #1565c0;
+  color: var(--main-clr);
   text-align: center;
 }
 
@@ -106,7 +110,7 @@ body {
 
 .plan--highlight {
   background-color: #e3f2fd;
-  color: #1565c0;
+  color: var(--main-clr);
 }
 
 .plan__title--highlight {
@@ -126,7 +130,7 @@ body {
 }
 
 .plan__btn {
-  background-color: #1565c0;
+  background-color: var(--main-clr);
   color: #ffffff;
   border: none;
   font: inherit;

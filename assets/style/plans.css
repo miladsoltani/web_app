@@ -1,3 +1,7 @@
+:root {
+    --main-clr : #1565c0
+}
+
 main {
     padding-top: 3rem;
 }
@@ -5,7 +9,7 @@ main {
 .plan {
     width: 60%;
     margin: 1rem 0;
-    border: 2px solid #1565c0;
+    border: 2px solid var(--main-clr);
     border-left: none;
     text-align: right;
     border-radius: 3px;
@@ -36,11 +40,11 @@ main {
     background-color: #e3f2fe;
     float: right;
     border-right: none;
-    border-left: 2px solid #1565c0;
+    border-left: 2px solid var(--main-clr);
 }
 
 #premium {
-    background-color: #1565c0;
+    background-color: var(--main-clr);
 }
 
 #premium .plan__title {
